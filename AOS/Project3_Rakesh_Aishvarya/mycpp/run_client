@@ -1,0 +1,13 @@
+./pageclient
+	sleep 5
+for size in 512 1024 2048 4096 6144 8192 
+do 
+	./pageclient
+	sleep 5
+	./pageclient
+	sleep 5
+	./pageclient
+	sleep 5
+	./pageclient
+	sleep 5
+done

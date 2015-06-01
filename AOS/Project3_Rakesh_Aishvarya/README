@@ -1,0 +1,38 @@
+FILES:
+	constants.hpp 
+		contains all the constants declared. Defining debug variable here enables debug messages.
+	HashMapList.cpp
+		contains the hashmap datastructure
+	LinkedList.cpp
+		containst the linked list implentation
+	page_client.cpp
+		contains the code for client end of the RPC that uses normal random distribution to select its url from the list
+	page_client_uniform.cpp
+		contains the code for client end of the RPC that uses uniform random distribution to select its url from the list
+	page_server.cpp
+		contains the code for server end of the RPC
+	run
+		contains the batch script for compiling the project, cleaning the ports for the server to run and starting server loops
+	run_client
+		This batch script executes the client test cases for normal distributed client
+	run_client_uniform
+		this batch file execues the client test cases for uniform distributed client
+		
+COMPILATION:
+	To compile the code, one has to type "make all" in the folder.
+	
+Executing the server
+	./pageserver $policy $size_inKB
+	policy 0 -- Random cache policy
+				 1 -- FIFO
+				 2 -- LRU
+				 3 -- No caching to be used
+				 
+Executing the client with normal distribution
+	./pageclient
+	or ./pageclient <IP> <port> (for accessing server on different machine)
+	
+Executing the client with uniform random distribution 
+	./pageclient_uniform
+	or ./pageclient_uniform <IP> <port> (for accessing server on different machine)
+

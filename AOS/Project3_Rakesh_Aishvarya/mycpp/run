@@ -1,0 +1,15 @@
+make clean
+make all
+sudo fuser -k 9090/tcp
+	./pageserver 0 $size >> output.txt
+for size in 512 1024 2048 4096 6144 8192 
+do
+	sudo fuser -k 9090/tcp
+	./pageserver 0 $size >> output.txt
+	sudo fuser -k 9090/tcp
+	./pageserver 1 $size >> output.txt
+	sudo fuser -k 9090/tcp
+	./pageserver 2 $size >> output.txt
+	sudo fuser -k 9090/tcp
+	./pageserver 3 $size >> output.txt
+done

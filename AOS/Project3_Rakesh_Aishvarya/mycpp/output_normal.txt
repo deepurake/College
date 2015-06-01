@@ -1,0 +1,192 @@
+cache scheme:	0
+cache size:	524288
+Total queries:	50
+Cache Misses:	28
+Miss Ratio:	0.56
+Access Time:	15723
+Average Access Time:	314
+=======================================================
+cache scheme:	1
+cache size:	524288
+Total queries:	50
+Cache Misses:	30
+Miss Ratio:	0.6
+Access Time:	18181
+Average Access Time:	363
+=======================================================
+cache scheme:	2
+cache size:	524288
+Total queries:	50
+Cache Misses:	31
+Miss Ratio:	0.62
+Access Time:	16883
+Average Access Time:	337
+=======================================================
+cache scheme:	3
+cache size:	524288
+Total queries:	50
+Cache Misses:	50
+Miss Ratio:	1
+Access Time:	24450
+Average Access Time:	489
+=======================================================
+cache scheme:	0
+cache size:	1048576
+Total queries:	50
+Cache Misses:	21
+Miss Ratio:	0.42
+Access Time:	16536
+Average Access Time:	330
+=======================================================
+cache scheme:	1
+cache size:	1048576
+Total queries:	50
+Cache Misses:	18
+Miss Ratio:	0.36
+Access Time:	12431
+Average Access Time:	248
+=======================================================
+cache scheme:	2
+cache size:	1048576
+Total queries:	50
+Cache Misses:	27
+Miss Ratio:	0.54
+Access Time:	19934
+Average Access Time:	398
+=======================================================
+cache scheme:	3
+cache size:	1048576
+Total queries:	50
+Cache Misses:	50
+Miss Ratio:	1
+Access Time:	28605
+Average Access Time:	572
+=======================================================
+cache scheme:	0
+cache size:	2097152
+Total queries:	50
+Cache Misses:	9
+Miss Ratio:	0.18
+Access Time:	7261
+Average Access Time:	145
+=======================================================
+cache scheme:	1
+cache size:	2097152
+Total queries:	50
+Cache Misses:	7
+Miss Ratio:	0.14
+Access Time:	4462
+Average Access Time:	89
+=======================================================
+cache scheme:	2
+cache size:	2097152
+Total queries:	50
+Cache Misses:	8
+Miss Ratio:	0.16
+Access Time:	5398
+Average Access Time:	107
+=======================================================
+cache scheme:	3
+cache size:	2097152
+Total queries:	50
+Cache Misses:	50
+Miss Ratio:	1
+Access Time:	33280
+Average Access Time:	665
+=======================================================
+cache scheme:	0
+cache size:	4194304
+Total queries:	50
+Cache Misses:	7
+Miss Ratio:	0.14
+Access Time:	4515
+Average Access Time:	90
+=======================================================
+cache scheme:	1
+cache size:	4194304
+Total queries:	50
+Cache Misses:	9
+Miss Ratio:	0.18
+Access Time:	9458
+Average Access Time:	189
+=======================================================
+cache scheme:	2
+cache size:	4194304
+Total queries:	50
+Cache Misses:	9
+Miss Ratio:	0.18
+Access Time:	5296
+Average Access Time:	105
+=======================================================
+cache scheme:	3
+cache size:	4194304
+Total queries:	50
+Cache Misses:	50
+Miss Ratio:	1
+Access Time:	25050
+Average Access Time:	501
+=======================================================
+cache scheme:	0
+cache size:	6291456
+Total queries:	50
+Cache Misses:	9
+Miss Ratio:	0.18
+Access Time:	5360
+Average Access Time:	107
+=======================================================
+cache scheme:	1
+cache size:	6291456
+Total queries:	50
+Cache Misses:	10
+Miss Ratio:	0.2
+Access Time:	6916
+Average Access Time:	138
+=======================================================
+cache scheme:	2
+cache size:	6291456
+Total queries:	50
+Cache Misses:	10
+Miss Ratio:	0.2
+Access Time:	130440
+Average Access Time:	2608
+=======================================================
+cache scheme:	3
+cache size:	6291456
+Total queries:	50
+Cache Misses:	50
+Miss Ratio:	1
+Access Time:	27075
+Average Access Time:	541
+=======================================================
+cache scheme:	0
+cache size:	8388608
+Total queries:	50
+Cache Misses:	9
+Miss Ratio:	0.18
+Access Time:	6167
+Average Access Time:	123
+=======================================================
+cache scheme:	1
+cache size:	8388608
+Total queries:	50
+Cache Misses:	9
+Miss Ratio:	0.18
+Access Time:	5374
+Average Access Time:	107
+=======================================================
+cache scheme:	2
+cache size:	8388608
+Total queries:	50
+Cache Misses:	8
+Miss Ratio:	0.16
+Access Time:	6144
+Average Access Time:	122
+=======================================================
+cache scheme:	3
+cache size:	8388608
+Total queries:	50
+Cache Misses:	50
+Miss Ratio:	1
+Access Time:	41376
+Average Access Time:	827
+=======================================================

@@ -1,0 +1,6 @@
+FILES:
+	constants.hpp 
+		contains all the constants declared. Defining debug variable here enables debug messages.
+	
+COMPILATION:
+To compile the code

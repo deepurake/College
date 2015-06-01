@@ -1,0 +1,36 @@
+Q) What Linux platform do you use?
+ANS: I have used 64 BIT UBUNTU linux platform on MACBOOK PRO.
+
+Q) How the preemptive scheduler is implemented?
+ANS: 
+--> Threads are implemented as circular bidirectional linkedlist data structure.
+--> Whenever the periodic alarm fires, it calls scheduler which finds the next runnable thread in the circular linked list and loads the context of the next thread by using swap_context routine.
+--> Also if no runnable thread found, we are exiting.
+
+Q) How to compile your library and run your program?
+ANS: 
+--> Type "make" to compile GTThread libraries. It will generate gtthread.a library file in the same folder.
+--> [Type "make clean" to clean the binaries]
+--> To run DININGPHILOSOPHER code, we just need to call 
+"./DiningPhilosophers"
+--> Once make generates gtthread.a library file, it can be used to run a test(testX.c) case by using the command
+"gcc testX.c gtthread.a -o testX -I. -g -w"
+"./testX"
+
+Q) How you prevent deadlocks in your Dining Philosophers solution?
+ANS: 
+--> Every Philosopher picks his right chopstick first and then his left one. 
+--> However the first philosopher picks left chopstick first and then his right one. 
+--> This algorithm ensures that there is no deadlock. Please note that deadlock happens when every philosopher has right chopstick (or left chopstick if implemented in reverse). 
+--> This doesnt happen since we are altering order of exactly one philosopher. Hence deadlock is not possible.
+
+Q) Any thoughts you have on the project, including things that work especially well or which don't work?
+ANS: 
+Which are done better:
+--> My scheduler is modularized well with a perfect state machine akin to pthread implementation. Each state represent the thread condition such as RUNNABLE-- can be scheduled, EXITING-- waiting to be cleaned up etcc. 
+This ensures ease of extensibility in future. The design is so clear that scheduler worked in one go with minor issues for first 7 test cases.
+--> I have rarely used busy wait and rather called yield whereever threads need to wait, this improves performance.
+--> I haven't maintained integer thread ID. I rather returned pointer to the thread ID. This may cause security issues, hwoever we need not search through the list and design becomes very transparent and easy to debug.
+Which are not done:
+--> Considering the time constraint and amount of work load, I have avoided doing additional things such as deadlock detection and fairness in mutex detection.
+--> One particular thing which doesnt work is if main thread returns without looping, whole process exits. I tried adding a thread to UC_LINK, but it doesn't work.
