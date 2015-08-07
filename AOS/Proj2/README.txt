@@ -1,3 +1,7 @@
+Project 2 - Barrier Synchronization
+
+Team Members - Rakesh Surapaneni(903088569), Aishvarya Krishnan(903036986)
+=======================================================================================================
 Compilation:
 	make
 Clean the folder:
