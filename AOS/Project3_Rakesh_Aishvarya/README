@@ -1,3 +1,7 @@
+Project 3 - RPC-based Proxy Server
+
+Team Members - Rakesh Surapaneni(903088569), Aishvarya Krishnan(903036986)
+=======================================================================================================
 FILES:
 	constants.hpp 
 		contains all the constants declared. Defining debug variable here enables debug messages.
